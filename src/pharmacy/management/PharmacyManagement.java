@@ -14,7 +14,8 @@ import javafx.stage.StageStyle;
 
 /**
  *
- * @author Windows 10
+ * @author Windows 10 Tahmina
+ * 
  */
 public class PharmacyManagement extends Application {
     
