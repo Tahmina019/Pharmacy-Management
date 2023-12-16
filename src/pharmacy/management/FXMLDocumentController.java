@@ -9,7 +9,11 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 /**
  *
@@ -17,13 +21,23 @@ import javafx.scene.control.Label;
  */
 public class FXMLDocumentController implements Initializable {
     
+     @FXML
+    private PasswordField Password;
+
     @FXML
-    private Label label;
+    private TextField Username;
+
+    @FXML
+    private Button loginbtn;
+
+    @FXML
+    private AnchorPane main_form;
+
+@FXML
+    private Button close;
     
-    @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
+    public void close(){
+        System.exit(0);
     }
     
     @Override
