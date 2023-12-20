@@ -34,7 +34,7 @@
                   <TextField fx:id="username" layoutX="132.0" layoutY="171.0" onAction="#loginAdmin" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@loginDesign.css" />
                   <PasswordField fx:id="password" layoutX="132.0" layoutY="231.0" onAction="#loginAdmin" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@loginDesign.css" />
                   <Button fx:id="loginBtn" layoutX="132.0" layoutY="285.0" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Login" />
-                  <Button layoutX="392.0" layoutY="2.0" mnemonicParsing="false" onAction="#close" prefHeight="24.0" prefWidth="57.0" styleClass="close" stylesheets="@loginDesign.css">
+                  <Button fx:id="close" layoutX="392.0" layoutY="2.0" mnemonicParsing="false" onAction="#close" prefHeight="24.0" prefWidth="57.0" styleClass="close" stylesheets="@loginDesign.css">
                      <graphic>
                         <FontAwesomeIcon glyphName="CLOSE" size="1.2em" text="" wrappingWidth="14.514358043670654" />
                      </graphic>
